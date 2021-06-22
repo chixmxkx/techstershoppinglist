@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List Example</title>
+    <style>
+        li{
+            margin-bottom: 10px;
+        }
+        li button{
+            font-size: 8px;
+            margin-left: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Shopping List</h1>
+    <div>
+        <label for="item">Enter New Item:</label>
+        <input type="text" name="item" id="item">
+        <button type="button" onclick="addItem()">ADD ITEM</button>
+    </div>
+    <ul id="list">
+
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
